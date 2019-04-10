@@ -244,6 +244,8 @@ footer {
   }
 }
 
+/* callout css - referenced https://www.w3schools.com/howto/howto_js_callout.asp  */
+
 .callout {
   position: fixed;
   bottom: 35px;
@@ -341,7 +343,7 @@ footer {
 
 .slideshow-container {
   box-sizing: border-box;
-  max-width: 1000px;
+  max-width: 1050px;
   position: relative;
   margin: auto;
 }
@@ -359,12 +361,14 @@ footer {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: black;
+  color: #000000;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 30px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  width: 45%;
+  text-align: center;
 }
 
 .next {
@@ -373,7 +377,8 @@ footer {
 }
 
 .previous:hover, .next:hover {
-  background-color: rgba(192,192,192,0.5);
+  /* background-color: rgba(192,192,192,0.5); */
+  color: #ffffff;
 }
 
 .text {
@@ -384,18 +389,25 @@ footer {
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
+  /* width: 99%; */
   width: 100%;
   background-color: rgba(192,192,192,0.8);
   padding-left: 4px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .numbertext {
   color: black;
   font-size: 12px;
-  padding: 8px 12px;
+  padding: 15px 12px;
   position: absolute;
   top: 0;
 }
+
+/* .slideshow-image {
+  width: 100%;
+} */
 
 .dot {
   cursor: pointer;
@@ -405,7 +417,8 @@ footer {
   background-color: #bbb;
   display: inline-block;
   transition: background-color 0.6s ease;
-  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .active, .dot:hover {
@@ -419,8 +432,8 @@ footer {
   animation-duration: 1.5s;
 }
 
-.pages-images img {
+/* .pages-images img {
   width: 100%;
   vertical-align: middle;
   box-sizing: border-box;
-}
+} */
