@@ -244,6 +244,42 @@ footer {
   }
 }
 
+.callout {
+  position: fixed;
+  bottom: 35px;
+  right: 20px;
+  margin-left: 20px;
+  max-width: 300px;
+}
+
+.callout-title {
+  padding: 25px 15px;
+  background: #a2a3a5;
+  opacity: 1;
+  font-size: 25px;
+  text-align: center;
+  color: #000000;
+}
+
+.callout-container {
+  padding: 15px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.closebtn {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: #000000;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.closebtn:hover {
+  color: #ffffff;
+}
+
 /* help for pages responsive design from https://learn.shayhowe.com/advanced-html-css/responsive-web-design/ mobile first demo */
 
 .pages:before,

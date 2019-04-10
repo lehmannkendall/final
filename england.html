@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137820716-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-137820716-1');
+    </script>
+
     <meta charset="utf-8">
     <meta name = "viewport" content = "width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/logo.png" />
@@ -9,6 +20,9 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link href="css/weather-app.css" rel="stylesheet">
+    <script src="javascript/london_weather.js"></script>
     <title>England</title>
   </head>
   <body class = "main-background">
@@ -26,6 +40,15 @@
       <h1>England</h1>
     </header>
     <main>
+      <div class = "callout">
+        <div class = "callout-title"> Temperature</div>
+        <span class = "closebtn" onclick = "this.parentElement.style.display='none';">×</span>
+        <div class = "callout-container">
+          <p> London </p>
+          <script type='text/javascript' src='https://darksky.net/widget/default-small/51.53738031412519,-0.13114562500004467/us12/en.js?width=100%&height=70&title=Full Forecast&textColor=ffffff&bgColor=ransparent&transparency=false&skyColor=undefined&fontFamily=Default&customFont=&units=us'></script>
+        </div>
+      </div>
+      
       <div class = "pages">
         <div class = "pages-grid">
           <div class = "pages-item">
@@ -81,15 +104,6 @@
       <i class="fas fa-globe-europe" aria-label="Globe of Europe Icon"></i> &copy; 2019 by Kendall Lehmann <i class="fas fa-globe-europe" aria-label="Globe of Europe Icon"></i>
     </footer>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137820716-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-137820716-1');
-    </script>
 
   </body>
 </html>
