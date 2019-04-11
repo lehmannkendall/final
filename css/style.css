@@ -393,60 +393,34 @@ footer {
   color: #ffffff;
 }
 
-/* .text {
-  text-align: center;
-  font-weight: bold;
-  color: black;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 50%;
-  background-color: rgba(192,192,192,0.8);
-  padding-left: 15px;
-  margin-left: 250px;
-} */
 
 h2 span {
   color: black;
   font-weight: bold;
   font-size: 22px;
   background-color: rgba(192,192,192,0.8);
-  /* position: fixed;
-  top: 500px;
-  left: 70px;
-  right: 20px;
-  width: 50%; */
 }
-
-/* .text-container {
-  background-color: rgba(192,192,192,0.8);
-  width: 100%;
-  margin-left: 500px;
-} */
-
-/* .numbertext {
-  color: black;
-  font-size: 12px;
-  padding: 15px 12px;
-  position: absolute;
-  top: 0;
-} */
-
-/* .slideshow-image {
-  width: 100%;
-} */
 
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
+  height: 20px;
+  width: 20px;
   margin: 0 2px;
   background-color: #bbb;
   display: inline-block;
   transition: background-color 0.6s ease;
-  margin-top: 10px;
-  margin-bottom: 10px;
+}
+
+.dot-container {
+  /* background-color: blue; */
+  box-sizing: border-box;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1px;
+  margin-bottom: 8px;
+  width: 40%;
+  text-align: center;
 }
 
 .active, .dot:hover {
