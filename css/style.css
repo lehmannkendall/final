@@ -351,6 +351,18 @@ footer {
 .mySlides {
   display: none;
   box-sizing: border-box;
+  /* background-color: blue; */
+  position: relative;
+}
+
+.text {
+  position: relative;
+  bottom: 20px;
+  right: 8px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  bottom: 50px;
 }
 
 .previous, .next {
@@ -381,7 +393,7 @@ footer {
   color: #ffffff;
 }
 
-.text {
+/* .text {
   text-align: center;
   font-weight: bold;
   color: black;
@@ -389,21 +401,37 @@ footer {
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
-  /* width: 99%; */
-  width: 100%;
+  width: 50%;
   background-color: rgba(192,192,192,0.8);
-  padding-left: 4px;
-  margin-left: 10px;
-  margin-right: 10px;
+  padding-left: 15px;
+  margin-left: 250px;
+} */
+
+h2 span {
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  background-color: rgba(192,192,192,0.8);
+  /* position: fixed;
+  top: 500px;
+  left: 70px;
+  right: 20px;
+  width: 50%; */
 }
 
-.numbertext {
+/* .text-container {
+  background-color: rgba(192,192,192,0.8);
+  width: 100%;
+  margin-left: 500px;
+} */
+
+/* .numbertext {
   color: black;
   font-size: 12px;
   padding: 15px 12px;
   position: absolute;
   top: 0;
-}
+} */
 
 /* .slideshow-image {
   width: 100%;
