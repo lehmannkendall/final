@@ -25,6 +25,18 @@
     <a class="skip-main" href="#skip-to-main">Skip to main content</a>
     <header>
       <nav>
+        <div class = "topnav" id = "myTopnav">
+          <a href = "index.html">Home</a>
+          <a href = "england.html">England</a>
+          <a href = "france.html">France</a>
+          <a href = "germany.html" class = "current">Germany</a>
+          <a href = "gallery.html">Gallery</a>
+          <a href = "javascript:void(0);" class = "icon" onclick = "hamburger()">
+            <i class = "fa fa-bars" aria-label = "drop down menu icon"></i>
+          </a>
+        </div>
+      </nav>
+      <!-- <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="england.html">England</a></li>
@@ -32,7 +44,7 @@
           <li><a href="germany.html" class = "current">Germany</a></li>
           <li><a href ="gallery.html">Gallery</a></li>
         </ul>
-      </nav>
+      </nav> -->
       <h1>Germany</h1>
     </header>
     <main>
@@ -75,7 +87,16 @@
       <i class="fas fa-globe-europe" aria-label="Globe of Europe Icon"></i> &copy; 2019 by Kendall Lehmann <i class="fas fa-globe-europe" aria-label="Globe of Europe Icon"></i>
     </footer>
 
-
+    <script>
+    function hamburger() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
 
   </body>
 </html>
