@@ -252,6 +252,7 @@ footer {
   right: 20px;
   margin-left: 20px;
   max-width: 300px;
+  z-index: 5;
 }
 
 .callout-title {
