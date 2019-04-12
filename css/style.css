@@ -254,11 +254,11 @@ footer {
 
 .callout-title {
   padding: 25px 15px;
-  background: #a2a3a5;
+  background: #666666;
   opacity: 1;
   font-size: 25px;
   text-align: center;
-  color: #000000;
+  color: #ffffff;
 }
 
 .callout-container {
@@ -440,7 +440,7 @@ h2 span {
 } */
 
 .topnav {
-  background-color: grey;
+  background-color: #666666;
   overflow: hidden;
   text-align: center;
   position: relative;
