@@ -225,6 +225,15 @@ footer {
   background-color: #666666;
 }
 
+/* @media (prefers-reduced-motion: reduce) {
+  .flip-box:hover {
+    transform: none;
+  }
+  .flip-box-back {
+    transform: none;
+  }
+} */
+
 .flip-box-front, .flip-box-back {
   position: absolute;
   /* width: 100%;
