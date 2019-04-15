@@ -304,6 +304,20 @@ footer {
   }
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .gallery-item img:hover {
+    transform: none;
+  }
+
+  .flip-box:hover .flip-box-inner {
+    transform: none;
+  }
+
+  .flip-box-back {
+    transform: none;
+  }
+}
+
 /* callout css - referenced https://www.w3schools.com/howto/howto_js_callout.asp  */
 
 .callout {
