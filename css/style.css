@@ -533,6 +533,16 @@ h2 span {
   margin-top: 30px;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
 .topnav a {
   float: left;
   display: inline;

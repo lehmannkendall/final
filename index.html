@@ -156,16 +156,19 @@
 
       var i = 0;
       var txt = 'Welcome to A Guide for Traveling website! The information provided on each page provides the best tourist destinations for each country.';
+      var motionQuery = matchMedia('(prefers-reduced-motion)');
       // var speed = 70;
       function typeWriter() {
-        if (i < txt.length) {
+        if (motionQuery.matches) {
+          console.log(motionQuery.matches)
+          document.getElementById("type").innerHTML = txt;
+        } else {
           var speed = 70;
           document.getElementById("type").innerHTML += txt.charAt(i);
           i++;
           setTimeout(typeWriter, speed);
         }
       }
-
 
     </script>
 
