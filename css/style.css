@@ -382,6 +382,7 @@ footer {
 
 .pages-image {
   max-width: 60%;
+  background-color: blue;
 }
 
 .pages-item img {
