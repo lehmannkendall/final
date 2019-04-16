@@ -578,8 +578,16 @@ background-color: #000000;
   .topnav a.icon {
     float: right;
     display: block;
+    text-size: 0;
   }
 }
+
+/* a.icon {
+  font-size: 0;
+  color: transparent;
+  line-height: 0;
+  text-indent: -9999px;
+} */
 
 @media screen and (max-width: 600px) {
   .topnav.responsive { position: relative;}
