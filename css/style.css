@@ -581,6 +581,10 @@ background-color: #000000;
   }
 }
 
+a span {
+  display: none;
+}
+
 /* a.icon {
   font-size: 0;
   color: transparent;
