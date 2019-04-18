@@ -49,9 +49,7 @@
           <div class = "modal-content">
             <span class = "close">&times;</span>
             <button class = "myButton" onclick = "typeWriter()">Welcome! Click Here for Welcome Message</button>
-            <!-- <a href="#" class="myButton" onclick = "typeWriter()">Welcome! Click Here for a Welcome Message.</a> -->
             <p id = "type"></p>
-            <!-- <span id = "type"><p>Welcome!</p></span> -->
           </div>
         </div>
 
@@ -85,17 +83,7 @@
           <span class = "dot" onclick = "currentSlide(3)" aria-label = "dot symbol to indicate the photo number for slideshow"></span>
           <span class = "dot" onclick = "currentSlide(4)" aria-label = "dot symbol to indicate the photo number for slideshow"></span>
         </div>
-
-
-        <!-- <div class = "pages">
-          <div class = "pages-grid">
-            <div class = "pages-item">
-              <img src="images/map.jpg" alt="Image of USA passport and camera lying on top of a world map" class = "pages-image">  -->
-
               <p id="main" tabindex="-1"> This website is intended for individuals hoping to travel. There are many activities and sites to visit in each country, which can make it difficult to plan a vacation. This website provides some of the best places to visit in each location along with helpful tips. As someone who has traveled to all of these places, I hope you will enjoy your eventual trip there! </p>
-            <!-- </div>
-          </div>
-        </div> -->
       </section>
     </main>
     <footer>
@@ -108,14 +96,8 @@
       var slideIndex = 1;
       showSlides(slideIndex);
 
-      // Next/previous controls
       function plusSlides(n) {
         showSlides(slideIndex += n);
-      }
-
-      // Thumbnail image controls
-      function currentSlide(n) {
-        showSlides(slideIndex = n);
       }
 
       function showSlides(n) {
