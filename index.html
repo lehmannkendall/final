@@ -45,13 +45,13 @@
       <section>
         <h2>Welcome</h2>
 
-        <div id = "myModal" class = "modal">
+       <!--  <div id = "myModal" class = "modal">
           <div class = "modal-content">
             <span class = "close">&times;</span>
             <button class = "myButton" onclick = "typeWriter()">Welcome! Click Here for Welcome Message</button>
             <p id = "type"></p>
           </div>
-        </div>
+        </div> -->
 
         <div class = "slideshow-container">
           <div class = "mySlides fade">
@@ -86,6 +86,8 @@
               <p id="main" tabindex="-1"> This website is intended for individuals hoping to travel. There are many activities and sites to visit in each country, which can make it difficult to plan a vacation. This website provides some of the best places to visit in each location along with helpful tips. As someone who has traveled to all of these places, I hope you will enjoy your eventual trip there! </p>
       </section>
     </main>
+    <div class = "main">
+      </div>
     <footer>
       <div> (all images are from creative commons) </div>
       <i class="fas fa-globe-europe" aria-label="Globe of Europe Icon"></i> &copy; 2019 by Kendall Lehmann <i class="fas fa-globe-europe" aria-label="Globe of Europe Icon"></i>
@@ -125,32 +127,32 @@
         }
       }
 
-      var modal = document.getElementById('myModal');
-      var span = document.getElementsByClassName("close")[0];
-      span.onclick = function() {
-        modal.style.display = "none";
-      }
-      window.onclick = function(event) {
-        if (event.target == modal) {
-          modal.style.display = "none";
-        }
-      }
+      // var modal = document.getElementById('myModal');
+      // var span = document.getElementsByClassName("close")[0];
+      // span.onclick = function() {
+      //   modal.style.display = "none";
+      // }
+      // window.onclick = function(event) {
+      //   if (event.target == modal) {
+      //     modal.style.display = "none";
+      //   }
+      // }
 
-      var i = 0;
-      var txt = 'Welcome to A Guide for Traveling website! The information provided on each page provides the best tourist destinations for each country.';
-      var motionQuery = matchMedia('(prefers-reduced-motion)');
-      // var speed = 70;
-      function typeWriter() {
-        if (motionQuery.matches) {
-          // console.log(motionQuery.matches);
-          document.getElementById("type").innerHTML = txt;
-        } else {
-          var speed = 70;
-          document.getElementById("type").innerHTML += txt.charAt(i);
-          i++;
-          setTimeout(typeWriter, speed);
-        }
-      }
+      // var i = 0;
+      // var txt = 'Welcome to A Guide for Traveling website! The information provided on each page provides the best tourist destinations for each country.';
+      // var motionQuery = matchMedia('(prefers-reduced-motion)');
+      // // var speed = 70;
+      // function typeWriter() {
+      //   if (motionQuery.matches) {
+      //     // console.log(motionQuery.matches);
+      //     document.getElementById("type").innerHTML = txt;
+      //   } else {
+      //     var speed = 70;
+      //     document.getElementById("type").innerHTML += txt.charAt(i);
+      //     i++;
+      //     setTimeout(typeWriter, speed);
+      //   }
+      // }
 
     </script>
 
