@@ -266,6 +266,11 @@ footer {
   opacity: 0;
 }
 
+.flip-box-back a{
+  text-decoration: none;
+  color: white;
+}
+
 /* consulted https://codepen.io/halink0803/pen/qdVXqm for the webkit-animation bounce */
 
 /* .gallery-item img:hover{
