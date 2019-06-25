@@ -6,12 +6,13 @@ body{
 
 p{
   box-sizing: border-box;
-  border: 5px;
-  padding: 5px;
-  margin: 5px;
+  border: 15px;
+  padding: 15px;
+  margin: 15px;
   width: auto;
   position: relative;
   text-align: center;
+  font-size: 1.6rem;
 }
 
 h1{
